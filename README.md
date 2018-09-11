@@ -1,0 +1,1 @@
+The Odin Project assignment to recreate the basic Google homepage, with limited functionality. This lesson is meant to teach basic html and css.

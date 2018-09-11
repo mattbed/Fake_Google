@@ -1,0 +1,64 @@
+#header {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 900px;
+}
+#headerleft {
+    padding: 15px;
+    float: left;
+}
+#headerright {
+    padding: 15px;
+    float: right;
+}
+#footer {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    min-width: 900px;
+    height: auto;
+}
+#footerleft {
+    padding: 15px;
+    float: left;
+}
+#footerright {
+    padding: 15px;
+    float: right;
+}
+#main {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    top: 200px;    
+    min-width: 900px;
+}
+#form {
+
+}
+#language {
+    font-size: small;
+}
+.links a {
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+.links .languagelink a:visited {
+    color: #609;
+}
+.links .languagelink a:hover {
+    text-decoration: underline;
+}
+.languagelink a {
+    color: #1a0dab;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+}
