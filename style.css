@@ -85,7 +85,7 @@ input[type=submit]:hover {
     font-size: small;
     font-family: arial,sans-serif;
 }
-.links_h a:link {
+.links_h a:link, .links_h a:visited {
     padding-left: 15px;
     color: #000;
     opacity: 0.75;
@@ -99,7 +99,7 @@ input[type=submit]:hover {
     color:rgb(255, 255, 255);
     opacity: 100%;
 }
-.links_f a:link {
+.links_f a:link, .links_f a:visited {
     padding-left: 15px;
     text-decoration: none;
     cursor: pointer;
@@ -111,9 +111,6 @@ input[type=submit]:hover {
     color: #1a0dab;
     font-family: arial,sans-serif;
     text-decoration: none;
-}
-a:visited {
-    color: #609;
 }
 .links_h a:hover, .links_f a:hover, .languagelink a:hover {
     text-decoration: underline;
