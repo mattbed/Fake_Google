@@ -94,7 +94,7 @@ input[type=submit]:hover {
     text-decoration: none;
     cursor: pointer;
 }
-.signin a:link {
+.signin a:link, .signin a:visited {
     padding-left: 15px;
     color:rgb(255, 255, 255);
     opacity: 100%;
@@ -162,8 +162,6 @@ a:active {
     background-origin: padding-box;
     background-position-x: 0%;
     background-position-y: 0%;
-    background-repeat-x:initial;   
-    background-repeat-y:initial;
     background-size: auto;
     border-bottom-color: rgb(66, 133, 244);
     border-bottom-left-radius: 2px;
